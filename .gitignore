@@ -17,6 +17,7 @@ local.properties
 .loadpath
 .idea/
 target/
+*.iml
 
 # External tool builders
 .externalToolBuilders/
