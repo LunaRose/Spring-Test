@@ -20,7 +20,6 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 import java.io.File;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
@@ -65,7 +64,7 @@ public class SelectPersonTestsIE
         final WebDriver firefoxDriver = new FirefoxDriver();
         final WebDriver chromeDriver = new ChromeDriver();
 
-        final List<WebDriver> drivers = new Arrays.asList(new WebDriver[]{ieDriver, firefoxDriver, chromeDriver});
+//        final List<WebDriver> drivers = new Arrays.asList(new WebDriver[]{ieDriver, firefoxDriver, chromeDriver});
 
         for (Person person : people)
         {
